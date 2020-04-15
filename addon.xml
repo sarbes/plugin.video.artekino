@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.artekino" name="Arte Kino Festival" version="0.0.1" provider-name="sarbes">
+    <requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="script.module.libmediathek4" version="0.0.1"/>
+		<import addon="script.module.requests" version="0.0.1"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+		<language>de</language>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<source>https://github.com/sarbes/plugin.video.artekino</source>
+		<forum>forum</forum>
+        <summary lang="en">summary</summary>
+        <description lang="en">description</description>
+        <summary lang="de">summary</summary>
+        <description lang="de">description</description>
+        <disclaimer lang="de">Dieses Add-on wird von keiner Sendeanstalt unterstützt und ist daher inoffiziell.</disclaimer>
+    </extension>
+</addon>
